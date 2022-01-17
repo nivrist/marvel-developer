@@ -1,0 +1,33 @@
+<ui:composition
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:p="http://primefaces.org/ui"
+    xmlns:pu="http://primefaces.org/avalon">
+
+    <h:form id="menuform">
+        <div class="layout-menu-container #{guestPreferences.menuClass}">
+            <div class="menu-scroll-content">
+
+
+                <pu:menu widgetVar="me" styleClass="layout-main-menu">
+                    <p:submenu id="om_homepage" label="" icon="pi pi-fw pi-bars">
+                        <p:submenu id="om_dashboards" icon="pi pi-fw pi-bars" label="Menu">
+                            <p:menuitem id="om_dashboard" value="Buscar personajes" icon="pi pi-fw pi-users" outcome="/view/buscarPersonaje" />
+                            <p:menuitem id="om_dashboard_banking" value="Comics por personaje" icon="pi pi-fw pi-id-card" outcome="/view/CharcatersByserie" />
+                            <p:menuitem id="spCharcaters" value="persona Especifico" icon="pi pi-fw pi-user" outcome="/view/DetailCharcater"  />
+                            <p:menuitem id="Comics" value="Listado de comics" icon="pi pi-fw pi-copy" outcome="/view/ComicsByCharacter" />
+                            <p:menuitem id="ComicsId" value="Comics por ID" icon="pi pi-fw pi-file" rendered="false" />
+                            <p:menuitem id="Historiestas" value="Comics por creador" icon="pi pi-fw pi-book" rendered="false" />
+                        </p:submenu>                        
+                    </p:submenu>
+                    <p:menuitem id="om_buy" value="Cerrar sesión" ajax="false" icon="pi pi-fw pi-sign-out" actionListener="#{loginSecurity.logOut()}" />
+
+
+                </pu:menu>
+                
+            </div>
+        </div>
+    </h:form>
+</ui:composition>

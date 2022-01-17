@@ -1,0 +1,256 @@
+{
+	"info": {
+		"_postman_id": "56061396-b59d-4ff5-a3d2-60c8458fdfd0",
+		"name": "MarvelDeveloperApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authenticate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"LOKI\",\r\n    \"password\":\"M4RV3L\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/api/authenticate",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"authenticate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CharactersByName",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMjA5NTEwLCJpYXQiOjE2NDIyMDU5MTB9.maASu8NJuvTu_hn9FGLiJxCP0NeNl_qVcqvAHQkK0mmdSNg9s3-8R1gRzls1qfWdQoFZZu-Jw5S4aZhVDhcLzQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel/characters?name=3-D Man",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel",
+						"characters"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "3-D Man"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CharactersBySeries",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMjA5NTEwLCJpYXQiOjE2NDIyMDU5MTB9.maASu8NJuvTu_hn9FGLiJxCP0NeNl_qVcqvAHQkK0mmdSNg9s3-8R1gRzls1qfWdQoFZZu-Jw5S4aZhVDhcLzQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel/characters?comics=3-D Man",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel",
+						"characters"
+					],
+					"query": [
+						{
+							"key": "comics",
+							"value": "3-D Man"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ComicsByCharacter",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMjkyMjg2LCJpYXQiOjE2NDIyODg2ODZ9.7sUhncDFxiOaxCI9VQm8nJXobd3raoTVpwbkN2xW8Qdk9t7-Ecm8e67XfFirifT3g6WSd8V8i94VMSazh5vDzg",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel-comics/ComicsByCharacter?name=Hulk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel-comics",
+						"ComicsByCharacter"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Hulk"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DetailSpecificCharcater",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyNDAyMjcyLCJpYXQiOjE2NDIzOTg2NzJ9.82ECYHDLdFpAWflnKNxBtGwpWdiS2XhsMC3mE62vohMu1Id0eXcowUsy__FNi8OiqqI3Fomr6yg8_sF4f_DeeA",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel-characters/specificChcracter?name=Hulk",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel-characters",
+						"specificChcracter"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Hulk"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AllComics",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMzEzNTUyLCJpYXQiOjE2NDIzMDk5NTJ9.hHUeAk7oMcSMlSJIv-98WF2os22Lc9D7ywG0WYB8LO5wH5107KhnmqWaAwMiYQCDAUhYtcuyg6grCAc4eeiSyQ",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel-comics/AllComics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel-comics",
+						"AllComics"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ComicById",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMzE2NTgzLCJpYXQiOjE2NDIzMTI5ODN9.miMRgt-BHZ87hNeNiQEEba5kvHyzRMB8_G24DvKu3jDvvD82VHA4JaxgTLYUt5qQeyVXdBO8DVUCFQpqONylRA",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel-comics/ComicById?id=82967",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel-comics",
+						"ComicById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "82967"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ComicsByCreator",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJMT0tJIiwiZXhwIjoxNjQyMzE2NTgzLCJpYXQiOjE2NDIzMTI5ODN9.miMRgt-BHZ87hNeNiQEEba5kvHyzRMB8_G24DvKu3jDvvD82VHA4JaxgTLYUt5qQeyVXdBO8DVUCFQpqONylRA",
+						"type": "default"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9000/marvel-creators/comicsByCreator?name=Brian",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"marvel-creators",
+						"comicsByCreator"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Brian"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

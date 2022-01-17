@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2020.09.30 a las 10:28:16 AM CST 
+
+  -->
+  <bindings xmlns:tns="http://schemas.datacontract.org/2004/07/Vtex.Commerce.WebApps.AdminWcfService.Contracts" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.siman.nilo.adminbatch.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitEanDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitEanDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitEanDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEanDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProductDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfProductDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfProductDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitKitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitKitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitKitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ServiceDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServiceDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ServicePriceDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfServicePriceDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfServicePriceDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitServiceDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitServiceDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitServiceDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:BrandDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:CategoryDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ImageDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfImageDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfImageDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfFieldDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfFieldDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:FieldDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.FieldDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitComplementDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitComplementDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfProductFieldNameDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfProductFieldNameDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProductFieldNameDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductFieldNameDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfProductFieldIdDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfProductFieldIdDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ProductFieldIdDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductFieldIdDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitFieldNameDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitFieldNameDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitFieldNameDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitFieldNameDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStoreDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStoreDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StoreDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StoreDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftCardDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftCardTransactionItemDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardTransactionItemDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftListDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfGiftListMemberDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfGiftListMemberDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftListMemberDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListMemberDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfGiftListDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfGiftListDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftListTypeDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListTypeDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:GiftListStockKeepingUnitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListStockKeepingUnitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfGiftListStockKeepingUnitDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfGiftListStockKeepingUnitDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfStockKeepingUnitQuantityDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfStockKeepingUnitQuantityDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitQuantityDTO">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitQuantityDTO"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ErrorType">
+      <typesafeEnumClass ref="com.siman.nilo.adminbatch.wsdl.ErrorType"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:StockKeepingUnitComplementDTO.ComplementTypeEnum">
+      <typesafeEnumClass ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitComplementDTOComplementTypeEnum"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:TransactionAction">
+      <typesafeEnumClass ref="com.siman.nilo.adminbatch.wsdl.TransactionAction"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://tempuri.org/" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.siman.nilo.adminbatch.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitPriceUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitPriceUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitPriceUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitPriceUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitPriceUpdateByRefId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitPriceUpdateByRefId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitPriceUpdateByRefIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitPriceUpdateByRefIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByManufacturerCode">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByManufacturerCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByManufacturerCodeResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByManufacturerCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByRefId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByRefId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByRefIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByRefIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetByRefId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetByRefId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetByRefIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetByRefIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetSimilarCategory">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetSimilarCategory"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetSimilarCategoryResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetSimilarCategoryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetAllFromUpdatedDateAndId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetAllFromUpdatedDateAndId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductGetAllFromUpdatedDateAndIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductGetAllFromUpdatedDateAndIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductActive">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductActive"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductActiveResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductActiveResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitListByParent">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitListByParent"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitListByParentResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitListByParentResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitListBySkuId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitListBySkuId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitListBySkuIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitListBySkuIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitDeleteByParent">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitDeleteByParent"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitDeleteByParentResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitDeleteByParentResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitKitInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitKitInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitActive">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitActive"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitActiveResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitActiveResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetAllByProduct">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetAllByProduct"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetAllByProductResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetAllByProductResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByEan">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByEan"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitGetByEanResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitGetByEanResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServiceGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServiceGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServiceInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServiceInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServiceInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ServicePriceInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ServicePriceInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitServiceInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitServiceInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandGetByName">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandGetByName"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandGetByNameResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandGetByNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:BrandInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.BrandInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryGetByName">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryGetByName"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryGetByNameResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryGetByNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:CategoryInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.CategoryInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageServiceCopyAllImagesFromSkuToSku">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageServiceCopyAllImagesFromSkuToSku"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageServiceCopyAllImagesFromSkuToSkuResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageServiceCopyAllImagesFromSkuToSkuResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageServiceInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageServiceInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageServiceInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageServiceInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageListByStockKeepingUnitId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageListByStockKeepingUnitId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ImageListByStockKeepingUnitIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ImageListByStockKeepingUnitIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitImageRemove">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitImageRemove"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitImageRemoveResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitImageRemoveResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitImageRemoveByName">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitImageRemoveByName"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitImageRemoveByNameResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitImageRemoveByNameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationListBySkuId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationListBySkuId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationListBySkuIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationListBySkuIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationListByProductId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationListByProductId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationListByProductIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationListByProductIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitComplementInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitComplementInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitComplementInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitComplementInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsert">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsert"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByFieldId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByFieldId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByFieldIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByFieldIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByListFieldIds">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByListFieldIds"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationInsertByListFieldIdsResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationInsertByListFieldIdsResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationTextInsertByFieldId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationTextInsertByFieldId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductEspecificationTextInsertByFieldIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductEspecificationTextInsertByFieldIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsertByList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsertByList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsertByListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsertByListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsert">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsert"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsertResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductSetSimilarCategory">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductSetSimilarCategory"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:ProductSetSimilarCategoryResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ProductSetSimilarCategoryResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StoreList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StoreList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StoreListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StoreListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StoreGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StoreGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StoreGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StoreGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsertByFieldId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsertByFieldId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:StockKeepingUnitEspecificationInsertByFieldIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.StockKeepingUnitEspecificationInsertByFieldIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardTransactionItemInsert">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardTransactionItemInsert"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardTransactionItemInsertResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardTransactionItemInsertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByClientEmail">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByClientEmail"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByClientEmailResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByClientEmailResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByClientCpf">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByClientCpf"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByClientCpfResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByClientCpfResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetType">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetType"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetTypeResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetTypeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByCreatedDate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByCreatedDate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByCreatedDateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByCreatedDateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllFromCreatedDateAndId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllFromCreatedDateAndId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllFromCreatedDateAndIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllFromCreatedDateAndIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllBetweenEventDateIntervalAndId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllBetweenEventDateIntervalAndId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllBetweenEventDateIntervalAndIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllBetweenEventDateIntervalAndIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByModifiedDate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByModifiedDate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByModifiedDateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByModifiedDateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllFromModifiedDateAndId">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllFromModifiedDateAndId"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetAllFromModifiedDateAndIdResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetAllFromModifiedDateAndIdResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByGifted">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByGifted"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListGetByGiftedResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListGetByGiftedResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListV2Filters">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListV2Filters"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListV2FiltersResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListV2FiltersResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSearch">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSearch"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSearchResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSearchResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSearchWithSurname">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSearchWithSurname"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSearchWithSurnameResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSearchWithSurnameResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListMemberInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListMemberInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListMemberInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListMemberInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListMemberDelete">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListMemberDelete"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListMemberDeleteResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListMemberDeleteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuInsert">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuInsert"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuInsertResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuInsertResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuSetPurchased">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuSetPurchased"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuSetPurchasedResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuSetPurchasedResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuDeleteByList">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuDeleteByList"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuDeleteByListResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuDeleteByListResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuDelete">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuDelete"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftListSkuDeleteResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftListSkuDeleteResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardGet">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardGet"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardGetResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardGetResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardGetByRedeptionCode">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardGetByRedeptionCode"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:GiftCardGetByRedeptionCodeResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.GiftCardGetByRedeptionCodeResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:IntegrationLogErrorInsertUpdate">
+      <class ref="com.siman.nilo.adminbatch.wsdl.IntegrationLogErrorInsertUpdate"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:IntegrationLogErrorInsertUpdateResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.IntegrationLogErrorInsertUpdateResponse"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:IntegrationErrorCheckInstanceExists">
+      <class ref="com.siman.nilo.adminbatch.wsdl.IntegrationErrorCheckInstanceExists"/>
+    </bindings>
+    <bindings if-exists="true" scd="tns:IntegrationErrorCheckInstanceExistsResponse">
+      <class ref="com.siman.nilo.adminbatch.wsdl.IntegrationErrorCheckInstanceExistsResponse"/>
+    </bindings>
+  </bindings>
+  <bindings xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/Arrays" if-exists="true" scd="x-schema::tns">
+    <schemaBindings map="false">
+      <package name="com.siman.nilo.adminbatch.wsdl"/>
+    </schemaBindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfint">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfint"/>
+    </bindings>
+    <bindings if-exists="true" scd="~tns:ArrayOfstring">
+      <class ref="com.siman.nilo.adminbatch.wsdl.ArrayOfstring"/>
+    </bindings>
+  </bindings>
+</bindings>

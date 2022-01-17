@@ -1,0 +1,56 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+    <ui:define name="content">
+        <div class="p-grid"> 
+            <div class="p-col-12">
+                <p:growl id="msg"/>
+                <h:form>
+                    <div class="card">
+                        <div class="ui-fluid p-formgrid p-grid">
+                            <div class="p-field p-col-12 p-md-5">
+                                <p:outputLabel value="nombre de personaje"  />
+                                <p:inputText value="#{loginSecurity.charcater2}" />
+                            </div>
+                            <div class="p-field p-col-12 p-md-7"></div>
+                            <div class="p-field p-col-12 p-md-2">
+                                <p:commandButton value="Buscar" update="tablecomics" action="#{loginSecurity.comicsByCharcater()}" />
+                            </div>
+                            <div class="p-field p-col-12 p-md-10"></div>
+                            <div class="p-field p-col-12 p-md-12">
+
+                                <p:dataTable var="res" id="tablecomics" value="#{loginSecurity.principalComics.data.comicsData.results}" rows="10"
+                                             paginator="true" lazy="true"
+                                             paginatorTemplate="{CurrentPageReport} {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {RowsPerPageDropdown}"
+                                             currentPageReportTemplate="{startRecord}-{endRecord} of {totalRecords} records"
+                                             rowsPerPageTemplate="5,10,{ShowAll|'All'}">
+
+                                    <p:column headerText="Title">
+                                        <h:outputText value="#{res.title}" />
+                                    </p:column>
+
+                                    <p:column headerText="description">
+                                        <h:outputText value="#{res.description}" />
+                                    </p:column>
+
+                                    <p:column headerText="Image">
+                                         <p:graphicImage height="100" id="charcater" width="100" url="#{res.thumbnail.path}.#{res.thumbnail.extension}"/>
+                                        
+                                    </p:column>
+
+
+                                </p:dataTable>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>

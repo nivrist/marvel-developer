@@ -1,0 +1,31 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:p="http://primefaces.org/ui"
+                template="/WEB-INF/template.xhtml">
+    <ui:define name="content">
+        <div class="p-grid"> 
+            <div class="p-col-12">
+                <p:growl id="msg"/>
+                <h:form>
+                    <div class="card">
+                        <div class="ui-fluid p-formgrid p-grid">
+                            <div class="p-field p-col-12 p-md-5">
+                                <p:outputLabel value="nombre de comic"  />
+                                <p:inputText value="#{loginSecurity.comicName}" />
+                            </div>
+                            <div class="p-field p-col-12 p-md-7"></div>
+                            <div class="p-field p-col-12 p-md-2">
+                                <p:commandButton value="Buscar" update="jsons" action="#{loginSecurity.findCharcatersByComics()}" />
+                            </div>
+                            <div class="p-field p-col-12 p-md-10"></div>
+                            <p:outputLabel id="jsons" value="#{loginSecurity.jsonFormart}"  />
+
+                        </div>
+                    </div>
+                </h:form>
+            </div>
+        </div>
+    </ui:define>
+</ui:composition>

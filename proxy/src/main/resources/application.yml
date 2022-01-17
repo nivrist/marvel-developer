@@ -1,0 +1,29 @@
+server:
+  port: 9000
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: Authenticate
+        uri: http://localhost:9001
+        predicates:
+        - Path=/api/**
+      - id: Characters
+        uri: http://localhost:9002
+        predicates:
+        - Path=/marvel-characters/**
+      - id: Characters
+        uri: http://localhost:9003
+        predicates:
+        - Path=/marvel-comics/**
+      - id: Characters
+        uri: http://localhost:9004
+        predicates:
+        - Path=/marvel-creators/**        
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
+            - POST
