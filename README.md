@@ -31,3 +31,6 @@ Passs :123
 
 para la aplicacion web se debe de cargar el siguiente JAR avalon-theme-3.0.1.jar  en la Ruta .m2\repository\com\developer\avalon-theme\3.0.1
 ya que este no esta Disponible por medio de los repositorios de Maven
+
+- Proyecto montado en servidor GlassFish Server 4.1.1
+- Se debe de crear un JNDI con Nombre  jdbc/marvelApp
